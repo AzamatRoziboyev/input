@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .main1 {
     width: 500px;
     height: 500px;
@@ -15,9 +16,8 @@
     justify-content: center;
     align-items: center;
     background-color: green;
-    
-
 }
+
 #input1 {
     width: 300px;
     height: 50px;
@@ -26,6 +26,27 @@
     padding: 5px;
     border: none;
 }
+
 .label1 {
     font-size: 35px;
+}
+
+/* 📱 Telefon uchun */
+@media (max-width: 600px) {
+    .main1 {
+        width: 90%;
+        height: 400px;
+        margin: 80px auto;
+        border-radius: 15px;
+    }
+
+    #input1 {
+        width: 80%;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .label1 {
+        font-size: 28px;
+    }
 }
